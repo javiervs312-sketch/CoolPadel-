@@ -1,9 +1,23 @@
 <style>
-  body, html {
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* Esto quita barras de desplazamiento innecesarias */
-    height: 100%;
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body, html { 
+    margin: 0 !important; 
+    padding: 0 !important; 
+    width: 100vw !important;
+    height: 100vh !important;
+    overflow: hidden; 
+  }
+  div { 
+    width: 100% !important; 
+    height: 100% !important; 
+    position: absolute !important;
+    top: 0;
+    left: 0;
+  }
+  iframe {
+    border: none !important;
+    width: 100% !important;
+    height: 100% !important;
   }
 </style>
 
